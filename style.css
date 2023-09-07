@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+
+:root{
+  --darkmagenta: hsl(300, 43%, 22%);
+  --softpink: hsl(333, 80%, 67%);
+  --darkmagentagray:  hsl(303, 10%, 53%);
+  --lightmagenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  background: var(--white);
+  font-family: 'League Spartan', sans-serif;
+  margin: 0 auto;
+}
+
+
+.topImage {
+  width: 30rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottomImage {
+  width: 30rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.container {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 2rem;
+}
+
+.headerCon {
+  text-align: center;
+  padding: 2rem;
+}
+
+.headerCon h2{
+  color: var(--darkmagenta);
+  font-size: 2rem;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.headerCon p {
+  color: var(--darkmagentagray);
+  margin-top: 20px;
+}
+
+.starCon {
+  display: grid;
+  grid-template-columns: repeat(1,300);
+  gap: 1rem;
+}
+
+.rateStarCon {
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--lightmagenta);
+}
+.star{
+  display: flex;
+  justify-content: center;
+}
+.star img {
+  margin: 0px 10px 10px 2px;
+}
+
+.rateStarCon p {
+  text-align: center;
+  font-weight: 700;
+  color: var(--darkmagenta);
+  font-size: 15px;
+}
+
+
+.commentContainer {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 1rem;
+  margin-bottom: 50px;
+}
+
+.comment {
+  padding: 2rem;
+  background: var(--darkmagenta);
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.lighttext {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--softpink);
+}
+
+.textComment {
+  margin-top: 30px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  padding-right: 15px;
+}
+
+
+
+
